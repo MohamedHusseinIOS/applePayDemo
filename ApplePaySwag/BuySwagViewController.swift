@@ -68,6 +68,7 @@ extension BuySwagViewController: PKPaymentAuthorizationViewControllerDelegate {
         
         let token = payment.token
         let contact = payment.billingContact
+        completion(.success)
         
     }
     
